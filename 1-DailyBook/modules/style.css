@@ -1,0 +1,91 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-width: 500px;
+  color: #657180;
+  font-size: 16px;
+}
+
+.daily-menu {
+  width: 150px;
+  /* background-color: red; */
+  margin-left: 30px;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.daily-list {
+  width: 300px;
+  /* background-color: green; */
+  top: 0;
+  bottom: 0;
+  left: 150px;
+  position: absolute;
+  overflow: auto;
+}
+
+.daily-item {
+  display: block;
+  color: gray;
+  overflow: hidden;
+  height: 80px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.daily-list .daily-item:hover {
+  background: blueviolet;
+}
+
+.daily-img {
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+
+.daily-title {
+  padding: 10px 5px 10px 90px;
+}
+
+.daily-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px green solid;
+}
+
+.daily-artical {
+  margin-left: 450px;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  padding: 20px;
+}
+
+.daily-artical-title {
+  padding: 10px 0;
+  color: gra;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.daily-comment {
+  margin-top: 30px;
+}
+
+.comment-item {
+  padding: 20px;
+}
+
+.comment-item img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.comnent-right {
+  margin: 5px 10px 5px 90px;
+}
